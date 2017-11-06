@@ -22,6 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/Helen/selenium/jsoup-1.11.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
