@@ -125,63 +125,29 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CommonPageDefinition.I_am_on_the_ausregister_Home_Page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 5289427059,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.using_the_dynamic_panel_with_icons_located_on_the_right_hand_side_of_the_screen()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 6649911841,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.checking_Avilability_page_was_displayed()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 12684731,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.using_search_box_in_the_middle_of_the_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2039076996,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "test-automation",
-      "offset": 34
-    },
-    {
-      "val": "com.au",
-      "offset": 64
-    }
-  ],
-  "location": "CheckingAvailabilityPage.perform_availability_check_of_the_with_relevant(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 11242676073,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sorry",
-      "offset": 13
-    }
-  ],
-  "location": "CheckingAvailabilityPage.validate_the(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 3051979156,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 14,
@@ -228,63 +194,108 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CommonPageDefinition.I_am_on_the_ausregister_Home_Page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 857415054,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.using_the_dynamic_panel_with_icons_located_on_the_right_hand_side_of_the_screen()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 6504969501,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.checking_Avilability_page_was_displayed()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 10267948,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CheckingAvailabilityPage.using_search_box_in_the_middle_of_the_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2033459171,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "test‐automation",
-      "offset": 34
-    },
-    {
-      "val": "org.au",
-      "offset": 64
-    }
-  ],
-  "location": "CheckingAvailabilityPage.perform_availability_check_of_the_with_relevant(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 7303941947,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Great news",
-      "offset": 13
-    }
-  ],
-  "location": "CheckingAvailabilityPage.validate_the(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 3048921636,
-  "status": "passed"
+  "status": "undefined"
+});
+formatter.uri("CheckRegistrarWebSites.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Check registrar web sites",
+  "description": "",
+  "id": "check-registrar-web-sites",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Successful Check registrar web sites",
+  "description": "",
+  "id": "check-registrar-web-sites;successful-check-registrar-web-sites",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "I am on the ausregister home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Using the dynamic panel with icons located on the right‐hand side",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Counting a number of external http links to the registrar web sites in “Find your domain” section",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "“Learn more” button located below “Find your domain” section",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verifying “Become a Registrar” page was displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Verifying the main text section on the page contains email and phone number",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Closed the browser",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.uri("HomePageVerification.feature");
 formatter.feature({
@@ -322,38 +333,20 @@ formatter.step({
   "name": "Closed the browser",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CommonPageDefinition.I_am_on_the_ausregister_Home_Page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 821523593,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "VerifyRegistedNumber.user_Navigate_to_the_number_of_regiested()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2006075777,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "3000000",
-      "offset": 45
-    }
-  ],
-  "location": "VerifyRegistedNumber.verify_the_number_of_registed_is_bigger_than(int)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 9556605,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CommonPageDefinition.closed_the_browser()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 658447953,
-  "status": "passed"
+  "status": "undefined"
 });
 });
