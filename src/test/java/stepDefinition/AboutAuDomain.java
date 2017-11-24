@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import static java.lang.Thread.sleep;
 
-public class AboutRegistry extends AbstractPageStepDefinition{
+public class AboutAuDomain extends AbstractPageStepDefinition{
     WebDriver driver=getDriver();
 
     @When("^Navigate to about ausregistry page from menu on the top$")

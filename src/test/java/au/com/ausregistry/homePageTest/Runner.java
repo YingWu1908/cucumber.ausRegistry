@@ -8,9 +8,9 @@ import cucumber.api.junit.Cucumber;
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
 			features = {"Features"}
-			,tags = {"@about"}
+//			,tags = {"@about"}
 			,glue= {"stepDefinition"}
-			,plugin= {"html:target/cucumber-html-report"}
+			,plugin= {"json:target/report-json/index.json"}
 )
 	
 public class Runner {
