@@ -31,6 +31,6 @@ public class CommonPageDefinition extends AbstractPageStepDefinition{
 
 	@Then("^Closed the browser$")
 	public void closed_the_browser() throws Throwable {
-		driver.quit();
+		driver.close();
 	}
 }

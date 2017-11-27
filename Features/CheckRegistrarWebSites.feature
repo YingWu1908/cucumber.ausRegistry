@@ -7,4 +7,4 @@ Scenario:Successful Check registrar web sites
 	Then “Learn more” button located below “Find your domain” section
 	Then Verifying “Become a Registrar” page was displayed
 	Then Verifying the main text section on the page contains email and phone number
-	Then Closed the browser
+#    Then Closed the browser
