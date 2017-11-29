@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 			features = {"Features"}
 //			,tags = {"@about"}
 			,glue= {"stepDefinition"}
-			,plugin= {"html:target/cucumber-html-report/index.html"}
+			,plugin= {"json:target/cucumber-json-report/cucumber.json"}
 )
 	
 public class Runner {
